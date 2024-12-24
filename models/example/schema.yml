@@ -19,3 +19,46 @@ models:
         data_tests:
           - unique
           - not_null
+  - name: dim_customer
+    description: "Customer dimension for TPCH_SF1 sample schema"
+    columns: 
+      - name: sk_custkey
+        description: "surrogate key for customer"
+        data_tests:
+          - unique
+          - not_null
+      - name: c_custkey
+        description: "natural key for customer"
+        data_tests:
+          - unique
+          - not_null
+      - name: name
+        description: "customer name"
+        data_tests:
+          - not_null
+      - name: address
+        description: "customer address"
+        data_tests:
+          - not_null
+      - name: nation_key
+        description: "customer nation_key"
+        data_tests:
+          - not_null
+      - name: phone
+        description: "customer phone"
+        data_tests:
+          - not_null
+      - name: ACCOUNT_BALANCE
+        description: "customer ACCOUNT_BALANCE"
+        data_tests:
+          - not_null
+      - name: ACCOUNT_BALANCE
+        description: "customer ACCOUNT_BALANCE"
+        data_tests:
+          - not_null
+      - name: MARKETING_SEGMENT
+        description: "customer MARKETING_SEGMENT"
+        data_tests:
+          - not_null
+      - name: COMMENT
+        description: "customer COMMENT"
