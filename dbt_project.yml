@@ -5,7 +5,7 @@ name: 'alexdemag_dbt_project'
 version: '1.0.0'
 
 dbt-cloud:
-  project-id: 70471823411198
+  project-id: 70471823411913
 
 # This setting configures which "profile" dbt uses for this project.
 profile: 'alexdemag_dbt_project'
