@@ -1,0 +1,14 @@
+models:
+  - name: dim_date
+    description: "date dimension from orders"
+    columns:
+      - name: d_date
+        data_tests:
+          - not_null
+  - name: fact_orders
+    description: "fact orders"
+    columns:
+      - name: orderkey
+        data_tests:
+          - unique
+          - not_null
