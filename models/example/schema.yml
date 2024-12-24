@@ -52,10 +52,6 @@ models:
         description: "customer ACCOUNT_BALANCE"
         data_tests:
           - not_null
-      - name: ACCOUNT_BALANCE
-        description: "customer ACCOUNT_BALANCE"
-        data_tests:
-          - not_null
       - name: MARKETING_SEGMENT
         description: "customer MARKETING_SEGMENT"
         data_tests:
